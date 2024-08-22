@@ -772,7 +772,7 @@ label{
   
 }
 .menu .menu_box .menu_card{
-    width: 1300px;
+    width: 1600px;
     height: 210px;
     padding-top: 10px;
     margin-bottom: 20px;
@@ -782,7 +782,7 @@ label{
 .menu .menu_box .menu_card .menu_image {
     position: relative;
     top: 10px;
-    left: -500px;
+    left: -650px;
     width: 260px;
     height: 150px;
     margin: 0 auto;
@@ -845,14 +845,14 @@ label{
     position: relative;
     
     top: -260px;
-    left: 400px;
+    left: 600px;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     color: white;
     background: #004781;
     padding: 4px 0px;
-    margin: 10px 550px;
+    margin: 10px 700px;
     transition: 0.3s;
 }
 .menu_btn_t{
@@ -860,14 +860,14 @@ label{
     position: relative;
     
     top: -210px;
-    left: 400px;
+    left: 600px;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     color: white;
     background: #004781;
     padding: 4px 0px;
-    margin: 10px 550px;
+    margin: 10px 700px;
     transition: 0.3s;
 }
 .menu_btn_h{
@@ -875,14 +875,14 @@ label{
     position: relative;
     
     top: -230px;
-    left: 400px;
+    left: 600px;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     color: white;
     background: #004781;
     padding: 4px 0px;
-    margin: 10px 550px;
+    margin: 10px 700px;
     transition: 0.3s;
 }
 .menu_btn_h:hover{
