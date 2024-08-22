@@ -63,7 +63,7 @@ function caesarEncrypt() {
   //Functionn for caesar Cipher ddecryption
   function caesarDecrypt() {
     const encryptedText = document.getElementById('caesar-encrypted-text').textContent;
-    const key = parseInt(document.getElementById('caesar-key').value) % 26;
+    const key = parseInt(document.getElementById('caesar-key').value);
     let decryptedText = '';
   
     for (let i = 0; i < encryptedText.length; i++) {
