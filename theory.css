@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+body{
+    font-family: "Poppins", sans-serif;
+    text-rendering: optimizeLegibility !important;
+    background: #ffff;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-image: url("1918.jpg");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} 
+
+
+.container {
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    flex: 1;
+    position: relative;
+}
+
+.btn{
+    font-size: 30px;
+    color: #ffffff;
+   
+}
+
+
+
+.pic-1 img{
+
+    width: 100%;
+    position: relative;
+    
+}
+
+.pic-2 img{
+
+    width: 100%;
+    position: relative;
+    
+}
+.pic-3 img{
+
+    width: 100%;
+    position: relative;
+    
+}
+.pic-4 img{
+
+    width: 100%;
+    position: relative;
+    
+}
+.pic-5 img{
+
+    width: 100%;
+    position: relative;
+    
+}
+.pic-6 img{
+
+    width: 100%;
+    position: relative;
+    
+}
+.pic-7 img{
+
+    width: 100%;
+    position: relative;
+    
+}
+.pic-8 img{
+
+    width: 100%;
+    position: relative;
+    
+}
+.pic-9 img{
+
+    width: 100%;
+    position: relative;
+    
+}
+.pic-10 img{
+
+    width: 100%;
+    position: relative;
+    
+}
+.pic-11 img{
+
+    width: 100%;
+    position: relative;
+    
+}
+.pic-12 img{
+
+    width: 100%;
+    position: relative;
+    
+}
+

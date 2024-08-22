@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="RSA.css">
+</head>
+<body>
+    <div class="main-container">
+        <!-- RSA Encryption & Decryption Section -->
+        <div class="banner-btn mt-4">
+            <a href="index.html" class="btn"> <-  Back</a>
+        </div>
+        <div class="container">
+            <h1>RSA Encryption & Decryption</h1>
+            <div class="input-fields">
+                <div class="field">
+                    <label for="p-value">Enter p Value:</label>
+                    <input type="text" id="p-value" placeholder="Enter P Value">
+                </div>
+                <div class="field">
+                    <label for="q-value">Enter q Value:</label>
+                    <input type="text" id="q-value" placeholder="Enter Q Value">
+                </div>
+                <div class="field">
+                    <label for="e-value">Enter e Value:</label>
+                    <input type="text" id="e-value" placeholder="Enter E Value">
+                </div>
+                <div class="field">
+                    <label for="message">Enter your message here:</label>
+                    <textarea id="message" placeholder="Enter your message here"></textarea>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="encrypt-btn">Encrypt</button>
+                <button id="decrypt-btn">Decrypt</button>
+                <button id="reset-btn">Reset</button>
+            </div>
+            <div class="results">
+                <div class="result">
+                    <label>Encrypted Message:</label>
+                    <span id="encrypted-message"></span>
+                </div>
+                <div class="result">
+                    <label>Decrypted Message:</label>
+                    <span id="decrypted-message"></span>
+                </div>
+                <div class="result">
+                    <label>This is n Value:</label>
+                    <span id="n-value"></span>
+                </div>
+            </div>
+            <p class="footer"></p>
+        </div>
+        <script src="RSA.js"></script>
+</body>
+</html>

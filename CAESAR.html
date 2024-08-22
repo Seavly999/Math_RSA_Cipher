@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caesar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CAESAR.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="banner-btn mt-4">
+            <a href="index.html" class="btn"> <-  Back</a>
+        </div>
+        <!-- Caesar Encryption & Decryption Section -->
+    <div class="container">
+        <h1>Classical Cryptography - Caesar Cipher</h1>
+        <div class="input-fields">
+            <div class="field">
+                <label for="caesar-text">Enter text to encrypt:</label>
+                <textarea id="caesar-text" placeholder="Enter text here"></textarea>
+            </div>
+            <div class="field">
+                <label for="caesar-key">Encryption Key(Shift):</label>
+                <input type="text" id="caesar-key" placeholder="Enter Key">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="caesar-encrypt-btn">Encrypt</button>
+            <button id="caesar-decrypt-btn">Decrypt</button>
+            <button id="caesar-reset-btn">Reset</button>
+        </div>
+        <div class="results">
+            <div class="result">
+                <label>Encrypted Text:</label>
+                <span id="caesar-encrypted-text"></span>
+            </div>
+            <div class="result">
+                <label>Decrypted Text:</label>
+                <span id="caesar-decrypted-text"></span>
+            </div>
+        </div>
+
+    </div>
+    <script src="CAESAR.js"></script>
+</body>
+</html>
