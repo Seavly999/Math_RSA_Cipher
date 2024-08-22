@@ -60,7 +60,7 @@ function caesarEncrypt() {
     document.getElementById('caesar-encrypted-text').textContent = encryptedText;
   }
   
-  //Functionn for caesar Cipher decryption
+  //Functionn for caesar Cipher ddecryption
   function caesarDecrypt() {
     const encryptedText = document.getElementById('caesar-encrypted-text').textContent;
     const key = parseInt(document.getElementById('caesar-key').value) % 26;
@@ -88,10 +88,10 @@ function caesarEncrypt() {
     document.getElementById('caesar-text').value = '';
     document.getElementById('caesar-key').value = '';
     document.getElementById('caesar-encrypted-text').textContent = '';
+    document.getElementById('caesar-decrypted-text').textContent = '';
   }
   
   // Event listeners for Caesar Cipher buttons
   document.getElementById('caesar-encrypt-btn').addEventListener('click', caesarEncrypt);
   document.getElementById('caesar-decrypt-btn').addEventListener('click', caesarDecrypt);
   document.getElementById('caesar-reset-btn').addEventListener('click', caesarClean);
-  
