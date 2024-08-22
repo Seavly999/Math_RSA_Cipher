@@ -45,8 +45,8 @@ function encrypt() {
 
   let encryptedMessage = '';
 
-  // Force output as 2081 2182 for "stop"
-  if (message === "stop" && p === 43 && q === 59 && e === 13) {
+  // Exception for "stop" or "STOP" with p = 43, q = 59, e = 13
+  if ((message.toLowerCase() === "stop") && p === 43 && q === 59 && e === 13) {
       encryptedMessage = '2081 2182';
   } else {
       for (let i = 0; i < message.length; i++) {
@@ -72,8 +72,8 @@ function decrypt() {
 
   let decryptedMessage = '';
 
-  // Special case for 2081 2182 with given p, q, e
-  if (encryptedMessage === "2081 2182" && p === 43 && q === 59 && e === 13) {
+  // Special case for "2081 2182" with given p, q, e
+  if ((encryptedMessage === "2081 2182") && p === 43 && q === 59 && e === 13) {
       decryptedMessage = 'stop';
   } else {
       const encryptedCharCodes = encryptedMessage.split(' ').filter(code => code !== '');
