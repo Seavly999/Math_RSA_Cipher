@@ -40,7 +40,7 @@ function modPow(base, exp, modulus) {
 // Function for Caesar Cipher encryption
 function caesarEncrypt() {
     const text = document.getElementById('caesar-text').value;
-    const key = parseInt(document.getElementById('caesar-key').value) % 26;
+    const key = parseInt(document.getElementById('caesar-key').value);
     let encryptedText = '';
   
     for (let i = 0; i < text.length; i++) {
